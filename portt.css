@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+#element {
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #333;
+    color: white;
+}
+
+nav .left {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+nav ul li a:hover {
+    color: blueviolet;
+    font-size: 1.05rem;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 3em 2em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 1000px;
+    
+}
+
+/* Button Style */
+.btn {
+    padding: 0.75em 1.5em;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1em;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 2em;
+    
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #007bff;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* internship Section */
+.Internships {
+    display: flex;
+   
+}
+
+h4{
+    color: grey;
+    margin: 1px;
+}
+
+.Internships .desc {
+    flex: 1;
+}
+
+#ch{
+    display: none;
+}
+
+#ch:checked ~.content{
+    display: block;
+}
+#ch:checked~label{
+    display: none;
+}
+.content{
+    display: none;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color: #28a745;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+#et{
+    display: none;
+}
+#et:checked ~.content{
+    display: block;
+}
+#et:checked~label{
+    display: none;
+}
+.content{
+    display: none;
+}
+
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #e9ecef;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .project{
+        flex: 1 1 100%;
+    }
+}

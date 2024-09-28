@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan Lamani Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portt.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Chetan Lamani</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="port2.html">Projects</a></li>
+                    <li><a href="#Internships">Internships</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="intro">
+            <h1>Hello, I'm Chetan Lamani</h1>
+            <div>
+                I am an EEE graduate with a strong foundation in both
+            </div>
+            <span id="element"></span>
+            
+            <div class="button">
+                <a href="LamaniChetan.pdf" class="btn" target="_blank"> Resume Download</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Electrical and Electronics Engineering graduate with a keen interest in software
+                development. I have hands-on experience in MATLAB, embedded systems, and developing solutions for
+                electrical systems. Now, I am eager to explore opportunities in the tech sector, bringing a combination
+                of engineering and programming skills to the table.</p>
+        </section>
+
+        <!-- internship Section -->
+        <section id="Internships">
+            <h2>Internships</h2>
+
+            <div class="Internships ">
+                <div class="desc">
+
+                    <input id="ch" type="checkbox">
+
+                    <h3>Embedded Systems Intern</h3>
+                    <h4>COMPANY: Emertxe Technologies, Bangalore </h4>
+                    <h4>DATE: June 2023 - August 2023</h4>
+                    <p>This Internship involved creating a simulation of a microwave oven using PIC16F877A
+                        microcontroller
+                        in the PICSimLab environment.... </p>
+                    <div class="content">
+                        <p>During my internship at Emertxe Technologies, I worked on a project titled "Microwave Oven
+                            Simulation" using the PICSimLab simulator and PIC16F877A microcontroller. My
+                            responsibilities included designing and implementing the simulation model, which involved
+                            developing functionalities such as heating modes, timers, and safety features. I focused on
+                            debugging and optimizing the code to ensure accurate representation of microwave operations.
+                            This experience enhanced my skills in embedded systems programming and microcontroller-based
+                            design.</p>
+                        <label for="ch">Read less</label>
+                    </div>
+                    <label for="ch">Read more</label>
+
+
+                </div>
+            </div>
+
+            <div class="Internships ">
+                <div class="desc">
+                    <input id="et" type="checkbox">
+                    <h3>Electric Vehicle Simulation Intern </h3>
+                    <h4>COMPANY: Abeyantrix Softlab OPC Pvt Ltd, Davangere </h4>
+                    <h4>DATE: September 2023 - November 2023</h4>
+                    <p>Designed and simulated the performance of an electric vehicle using MATLAB Simulink. </p>
+                    <div class="content">
+                        <p>At Abeyantrix Softlab, I worked on the simulation of electric vehicle performance using
+                            MATLAB Simulink. My tasks involved modeling various components of the electric vehicle's
+                            powertrain, analyzing efficiency under different driving conditions, and optimizing the
+                            system for better performance. This project provided valuable insights into electric vehicle
+                            control strategies and system dynamics.</p>
+                        <label for="et">Read less</label>
+                    </div>
+                    <label for="et">Read more</label>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Electrical Systems Design</li>
+                <li>MATLAB, Simulink</li>
+                <li>Embedded Systems (PIC16F877A, PICSimLab)</li>
+                <li>Software Development (HTML, CSS, Java, C, MySQL)</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via email or connect with me on GitHub.</p>
+            <a href="mailto:chetanlamani@example.com" class="btn">Email Me</a>
+            <a href="https://github.com/Chetan3999" target="_blank" class="btn">GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chetan Lamani | All rights reserved</p>
+        <p><a href="#">Back to top</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Electrical Systems and', 'Software Development'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
